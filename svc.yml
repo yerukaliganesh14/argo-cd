@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: mysvc
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: swiggy
   ports:
